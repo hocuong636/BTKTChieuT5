@@ -11,6 +11,7 @@ import btn4 from "./assets/image/btn_4.gif"
 import btn4Over from "./assets/image/btn_4_over.gif"
 import btn5 from "./assets/image/btn_5.gif"
 import btn5Over from "./assets/image/btn_5_over.gif"
+import slogan2 from "./assets/image/slogan2.gif"
 function App() {
 
   return (
@@ -30,6 +31,7 @@ function App() {
           <li class="btn_5"><a href="#">contacts</a></li>
         </ul>
       </div>
+      <div id="header"> <img src={slogan2} width="192" height="70" alt="" id="slogan2" /></div>
     </div>
   )
 }
