@@ -205,3 +205,34 @@ p a:hover {
   margin: 26px 39px 0 19px;
   display: inline
 }
+
+/* footer */
+
+#footer {
+  height: 49px;
+  clear: both;
+  width: 775px;
+  background: #e8f09c;
+  margin: 0 auto
+}
+
+#footer p {
+  padding: 10px 0 0 0;
+  font: 10px/16px Tahoma, sans-serif;
+  font-weight: normal;
+  text-align: center;
+  color: #000;
+}
+
+#footer p a {
+  font: 10px/16px Tahoma, sans-serif;
+  font-weight: normal;
+  color: #000;
+  text-decoration: none;
+  padding: 0 3px
+}
+
+#footer p a:hover {
+  text-decoration: underline;
+  color: #000
+}
