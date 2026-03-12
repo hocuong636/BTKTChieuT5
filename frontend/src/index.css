@@ -1,28 +1,52 @@
-/* Reset and base styles */
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
-
-:root {
-  --bg-color: #0d1117;
-  --text-color: #c9d1d9;
-  --card-bg: #161b22;
-  --accent-color: #58a6ff;
-  --accent-hover: #3182ce;
-  --success-color: #2ea043;
+/* CSS Document */
+body {
+  padding: 0px;
+  margin: 0px;
+  background: #fff;
+  color: #616161;
+  font: 10px/14px Tahoma, sans-serif;
 }
 
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+div,
+p,
+ul,
+h2,
+h3,
+h4,
+img {
+  padding: 0px;
+  margin: 0px;
 }
 
-body, html, #root {
-  font-family: 'Inter', sans-serif;
-  background-color: var(--bg-color);
-  color: var(--text-color);
-  width: 100%;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+ul {
+  list-style-type: none;
+}
+
+.clear {
+  clear: both;
+  margin: 0px;
+  height: 0
+}
+
+p a {
+  font: 10px/14px Tahoma, sans-serif;
+  color: #868e36;
+  text-decoration: underline;
+}
+
+p a:hover {
+  color: #868e36;
+  text-decoration: none;
+}
+
+.headline {
+  font: 10px/14px Tahoma, Geneva, sans-serif;
+  color: #868e36;
+  font-weight: bold
+}
+
+.headline2 {
+  font: 10px/14px Tahoma, Geneva, sans-serif;
+  color: #9d1263;
+  font-weight: bold
 }
