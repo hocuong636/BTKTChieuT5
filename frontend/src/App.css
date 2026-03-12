@@ -181,7 +181,7 @@ p a:hover {
 #header {
   width: 685px;
   height: 238px;
-  background: url(../images/b_header.jpg) 0 0 no-repeat;
+  background: url(./assets/image/b_header.jpg) 0 0 no-repeat;
   position: relative;
 }
 
