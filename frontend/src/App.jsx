@@ -24,7 +24,7 @@ function App() {
       <div id="logoPan"> <img src={logo} width="192" height="92" alt="" id="logo" /> <img src={slogan} width="297" height="46" alt="" id="slogan" /> </div>
       <div id="menuPan">
         <ul class="menu">
-          <li class="btn_1"><a href="#">home</a></li>
+          <li class="btn_1"><a href="#">home page</a></li>
           <li class="line"></li>
           <li class="btn_2"><a href="#">about us</a></li>
           <li class="line"></li>
