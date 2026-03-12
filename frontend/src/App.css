@@ -190,3 +190,18 @@ p a:hover {
   top: 76px;
   left: 19px
 }
+
+/* content */
+
+#content {
+  width: 685px;
+  position: relative;
+  background: #FFF
+}
+
+#leftPan {
+  width: 179px;
+  float: left;
+  margin: 26px 39px 0 19px;
+  display: inline
+}

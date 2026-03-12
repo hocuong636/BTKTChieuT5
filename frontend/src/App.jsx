@@ -12,6 +12,7 @@ import btn4Over from "./assets/image/btn_4_over.gif"
 import btn5 from "./assets/image/btn_5.gif"
 import btn5Over from "./assets/image/btn_5_over.gif"
 import slogan2 from "./assets/image/slogan2.gif"
+import welcome from "./assets/image/img_welcome.jpg"
 function App() {
 
   return (
@@ -20,7 +21,7 @@ function App() {
       <div id="logoPan"> <img src={logo} width="192" height="92" alt="" id="logo" /> <img src={slogan} width="297" height="46" alt="" id="slogan" /> </div>
       <div id="menuPan">
         <ul class="menu">
-          <li class="btn_1"><a href="#">home page</a></li>
+          <li class="btn_1"><a href="#">home</a></li>
           <li class="line"></li>
           <li class="btn_2"><a href="#">about us</a></li>
           <li class="line"></li>
@@ -32,6 +33,16 @@ function App() {
         </ul>
       </div>
       <div id="header"> <img src={slogan2} width="192" height="70" alt="" id="slogan2" /></div>
+      <div id="content">
+        <div id="leftPan">
+          <div id="welcome">
+            <h2></h2>
+            <img src={welcome} width="172" height="56" alt="" />
+            <p class="headline">Nam eu nulla. Donec lobortis purus vel urna. Nunc laoreet lacinia nunc. </p>
+            <p>Nam eu nulla. Donec lobortis purus vel urna. Nunc laoreet lacinia nunc. In volutpat sodales ipsum. Sed vestibulum. Integer in ante. Sed Nunc laoreet lacinia nunc. In volutpat sodales </p>
+          </div>
+        </div>
+      </div>
     </div>
   )
 }
