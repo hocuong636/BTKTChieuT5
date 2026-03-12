@@ -13,6 +13,9 @@ import btn5 from "./assets/image/btn_5.gif"
 import btn5Over from "./assets/image/btn_5_over.gif"
 import slogan2 from "./assets/image/slogan2.gif"
 import welcome from "./assets/image/img_welcome.jpg"
+import img_prod from "./assets/image/img_prod.jpg"
+import img_prod_13 from "./assets/image/img_prod-13.jpg"
+import img_prod_14 from "./assets/image/img_prod-14.jpg"
 function App() {
 
   return (
@@ -42,6 +45,29 @@ function App() {
             <p>Nam eu nulla. Donec lobortis purus vel urna. Nunc laoreet lacinia nunc. In volutpat sodales ipsum. Sed vestibulum. Integer in ante. Sed Nunc laoreet lacinia nunc. In volutpat sodales </p>
           </div>
         </div>
+        <div id="rightPan">
+          <div id="featured">
+            <h2></h2>
+            <p class="headline">Nam eu nulla. Donec lobortis purus vel urna. Nunc laoreet lacinia nunc.Nam eu nulla. Donec lobortis purus vel urna. Nunc laoreet lacinia nunc. In volutpat sodales ipsum. </p>
+            <div class="featItem" id="i01"> <img src={img_prod} width="116" height="125" alt="" />
+              <p><span class="headline2">Morbi volutpat leo in</span><br />
+                <a href="#">Nam eu nulla. Donec</a><br />
+                lobortis purus vel urna. Nunc laoreet lacinia nunc</p>
+            </div>
+            <div class="featItem" id="i02"> <img src={img_prod_13} width="116" height="125" alt="" />
+              <p><span class="headline2">Morbi volutpat leo in</span><br />
+                <a href="#">Nam eu nulla. Donec</a><br />
+                lobortis purus vel urna. Nunc laoreet lacinia nunc</p>
+            </div>
+            <div class="featItem" id="i03"> <img src={img_prod_14} width="116" height="125" alt="" />
+              <p><span class="headline2">Morbi volutpat leo in</span><br />
+                <a href="#">Nam eu nulla. Donec</a><br />
+                lobortis purus vel urna. Nunc laoreet lacinia nunc</p>
+            </div>
+            <div class="clear"></div>
+          </div>
+        </div>
+        <div class="clear" id="end"></div>
       </div>
     </div>
   )
